@@ -17,6 +17,7 @@ android:
 
 
 before_install:
+  - chmod +x gradlew
   - echo yes | android update sdk --all --filter build-tools-25 --no-ui --force
 
 script:
